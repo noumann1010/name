@@ -1,0 +1,21 @@
+/* ===== Register Page Specific Styles ===== */
+
+/* Register form section adjustments */
+.register-form-section {
+  padding-top: 40px;
+}
+
+/* Register form - reduced spacing for 3 fields */
+.register-form .form-group {
+  margin-bottom: 20px;
+}
+
+/* Register button */
+.register-btn {
+  margin-top: 12px;
+}
+
+/* Adjust tagline spacing for register page */
+.register-form .login-tagline {
+  margin-top: 28px;
+}
