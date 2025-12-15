@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Math800</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="membership.css">
+</head>
+<body class="membership-page">
+    <!-- Header/Navigation -->
+    <header class="membership-header">
+        <div class="membership-header-container">
+            <div class="membership-logo">
+                <div class="logo-icon-wrapper">
+                    <svg width="79" height="79" viewBox="0 0 79 79" fill="none">
+                        <path d="M35.4796 2.46491C37.4322 0.51229 40.5973 0.512291 42.5499 2.46491L75.5645 35.4796C77.5171 37.4322 77.5171 40.5973 75.5645 42.5499L42.5499 75.5645C40.5973 77.5171 37.4322 77.5171 35.4796 75.5645L2.46491 42.5499C0.51229 40.5973 0.512291 37.4322 2.46491 35.4796L35.4796 2.46491Z" stroke="#20B486" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h1 class="logo-text">Math800</h1>
+            </div>
+            
+            <nav class="membership-nav">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="#" class="nav-item">Practice</a>
+                <a href="#" class="nav-item">Resources</a>
+                <a href="#" class="nav-item">FAQ's</a>
+            </nav>
+            
+            <div class="user-profile">
+                <span class="user-name">Student</span>
+                <div class="user-avatar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="membership-main">
+        <!-- Hero Section -->
+        <section class="plans-hero">
+            <h2 class="plans-title">Flexible Plans</h2>
+        </section>
+
+        <!-- Pricing Plans -->
+        <section class="pricing-section">
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">Beginner</h3>
+                    <div class="plan-price">
+                        <span class="price-amount">Free</span>
+                        <span class="price-period">/ forever</span>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>5 practice problems per day</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Basic SAT math concepts</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Progress tracking dashboard</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="plan-btn outline">Start Free Trial</button>
+                </div>
+
+                <!-- Student Plan (Popular) -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">popular!</div>
+                    
+                    <h3 class="plan-name">👤 Student</h3>
+                    <div class="plan-price">
+                        <span class="price-amount">$24</span>
+                        <span class="price-period">/ month</span>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li class="feature-item">
+                            <div class="feature-icon yellow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Unlimited practice problems</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon yellow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Full video explanations</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon yellow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Practice tests & diagnostics</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon yellow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Personalized study plan</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon yellow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>24/7 tutor support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="plan-btn primary">Get Started</button>
+                </div>
+
+                <!-- Group Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">👥 Group</h3>
+                    <div class="plan-price">
+                        <span class="price-amount">$12</span>
+                        <span class="price-period">/ editor</span>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>All Student features included</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Team progress dashboard</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Collaborative study rooms</span>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon gray">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                    <path d="M1 5L5 9L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Priority support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="plan-btn outline">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Proposition Section -->
+        <section class="value-section">
+            <h3 class="value-title">Master the SAT Math section with expert guidance.</h3>
+            <p class="value-description">Our comprehensive SAT Math program combines personalized instruction, proven strategies, and unlimited practice to help you achieve your target score and reach your college goals.</p>
+            <button class="value-btn">Start Studying Now</button>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h3 class="faq-title">Common questions about our SAT Math tutoring</h3>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-toggle">
+                        <span>How long does it take to see improvement?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>Most students see significant improvement within 4-6 weeks of consistent practice. Our personalized study plans adapt to your pace and focus on areas where you need the most help.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-toggle">
+                        <span>What math topics are covered in the program?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>We cover all SAT Math topics including algebra, geometry, trigonometry, data analysis, and problem-solving strategies.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-toggle">
+                        <span>Can I study at my own pace?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>Absolutely! Our platform is designed for self-paced learning. Study whenever and wherever you want, with 24/7 access to all resources.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-toggle">
+                        <span>What if I need help outside scheduled sessions?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>We provide 24/7 support through our online platform. You can submit questions anytime, and our expert tutors will respond within hours. Premium members also have access to live chat support during business hours.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-toggle">
+                        <span>Do you offer a score improvement guarantee?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-content">
+                        <p>Yes! Students who complete our full program and follow our study plan see an average score improvement of 100+ points. If you don't improve, we'll work with you until you do.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <h3 class="testimonials-title">Success stories from our students</h3>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar"></div>
+                    <h4 class="testimonial-name">Sarah Martinez</h4>
+                    <p class="testimonial-text">Improved from 580 to 760 in just 8 weeks! The personalized study plan and practice problems made all the difference.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar"></div>
+                    <h4 class="testimonial-name">Michael Chen</h4>
+                    <p class="testimonial-text">Scored perfect 800! The video explanations and instant feedback helped me master every concept thoroughly.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar"></div>
+                    <h4 class="testimonial-name">Emily Johnson</h4>
+                    <p class="testimonial-text">Math went from my weakest to strongest section! The tutors are incredibly supportive and explain everything clearly.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar"></div>
+                    <h4 class="testimonial-name">David Thompson</h4>
+                    <p class="testimonial-text">The diagnostic tests pinpointed exactly what I needed to work on. Raised my score by 150 points in 6 weeks!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile App Section -->
+        <section class="app-section">
+            <h3 class="app-title">Practice on the go for free</h3>
+            <div class="app-buttons">
+                <button class="app-btn android">Android APP</button>
+                <button class="app-btn ios">IOS APP</button>
+            </div>
+        </section>
+
+        <!-- CTA Sections -->
+        <section class="cta-section">
+            <div class="cta-grid">
+                <div class="cta-card">
+                    <div class="cta-image"></div>
+                    <h4 class="cta-title">Become a Tutor</h4>
+                    <p class="cta-description">Join our team of expert SAT Math tutors. Share your knowledge, help students achieve their dreams, and earn competitive pay while working flexible hours.</p>
+                    <button class="cta-btn">Apply as Tutor</button>
+                </div>
+                
+                <div class="cta-card">
+                    <div class="cta-image"></div>
+                    <h4 class="cta-title">Partner With Us</h4>
+                    <p class="cta-description">Schools and organizations can partner with Math800 to provide SAT prep resources to your students. Contact us to learn about our institutional programs.</p>
+                    <button class="cta-btn">Partner Inquiry</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="https://www.figma.com/api/mcp/asset/7ad94671-c6bd-4dc8-bb2a-14b3ec31e9a3" alt="Math800 Logo" class="footer-logo-icon">
+            <span class="footer-logo-text">Math800</span>
+          </div>
+          <div class="footer-divider"></div>
+          <p class="footer-tagline">Your Journey to an 800</p>
+        </div>
+        
+        <div class="newsletter">
+          <p class="newsletter-title">Subscribe to get our Newsletter</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your Email" class="newsletter-input">
+            <button class="newsletter-btn">Subscribe</button>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <a href="#">Careers</a>
+          <span class="footer-divider-vertical"></span>
+          <a href="#">Privacy Policy</a>
+          <span class="footer-divider-vertical"></span>
+          <a href="#">Terms & Conditions</a>
+        </div>
+        
+        <p class="copyright">© 2025 Nouman LLC.</p>
+      </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion functionality
+        document.querySelectorAll('.faq-toggle').forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const arrow = this.querySelector('.faq-arrow');
+                const item = this.parentElement;
+                
+                // Close all other FAQs
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.faq-content').style.maxHeight = null;
+                        otherItem.querySelector('.faq-arrow').style.transform = 'rotate(0deg)';
+                    }
+                });
+                
+                // Toggle current FAQ
+                if (item.classList.contains('active')) {
+                    item.classList.remove('active');
+                    content.style.maxHeight = null;
+                    arrow.style.transform = 'rotate(0deg)';
+                } else {
+                    item.classList.add('active');
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    arrow.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Pricing card hover effects
+        document.querySelectorAll('.pricing-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>

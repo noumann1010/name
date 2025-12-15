@@ -48,7 +48,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #49BBBD;
+  background-color: #20B486;
   border-radius: 32px;
 }
 
@@ -99,7 +99,7 @@
   align-items: center;
   width: 240px;
   height: 44px;
-  background: rgba(73, 187, 189, 0.6);
+  background: rgba(32, 180, 134, 0.6);
   border-radius: 24px;
   padding: 6px 10px;
   position: relative;
@@ -124,7 +124,7 @@
 
 .auth-toggle-btn.active {
   font-weight: 500;
-  background: linear-gradient(180deg, rgba(73, 187, 189, 0.47) 0%, #49BBBD 100%);
+  background: linear-gradient(180deg, rgba(32, 180, 134, 0.47) 0%, #20B486 100%);
   border-radius: 20px;
 }
 
@@ -162,7 +162,7 @@
   height: 44px;
   padding: 0 24px;
   background: #FFFFFF;
-  border: 1px solid #49BBBD;
+  border: 1px solid #20B486;
   border-radius: 30px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -178,8 +178,8 @@
 }
 
 .form-input:focus {
-  border-color: #49BBBD;
-  box-shadow: 0 0 0 3px rgba(73, 187, 189, 0.15);
+  border-color: #20B486;
+  box-shadow: 0 0 0 3px rgba(32, 180, 134, 0.15);
 }
 
 /* Password Input Wrapper */
@@ -249,8 +249,8 @@
 }
 
 .remember-checkbox:checked {
-  background: #49BBBD;
-  border-color: #49BBBD;
+  background: #20B486;
+  border-color: #20B486;
 }
 
 .remember-checkbox:checked::after {
@@ -284,7 +284,7 @@
 }
 
 .forgot-password:hover {
-  color: #49BBBD;
+  color: #20B486;
 }
 
 /* ===== Login Button ===== */
@@ -292,7 +292,7 @@
   width: 180px;
   height: 40px;
   margin: 0 auto;
-  background: #49BBBD;
+  background: #20B486;
   border: none;
   border-radius: 28px;
   font-family: 'Poppins', sans-serif;
@@ -305,7 +305,7 @@
 }
 
 .login-btn:hover {
-  background: #3BA9AB;
+  background: #1A906B;
 }
 
 .login-btn:active {
